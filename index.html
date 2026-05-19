@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 40 Parables — Jesus' Parables Documentary | Jesus-Parables.com</title>
+    <meta name="description" content="A cinematic documentary exploring the hidden meaning, mysteries, and patterns behind the 40 parables of Jesus Christ. Watch the full biblical parables explained film.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+    </head>
+    <body>
+
+    <!-- DYNAMIC BACKGROUND CANVAS -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- NAV -->
+    <nav id="main-nav">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-mark"><img style="height: 53px; width: 286px; padding-left: 90px;" src="img/logo.png"></div>
+        
+      </a>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#trailers">Documentary</a>
+        <a href="#discovery">Discovery</a>
+        <a href="#affiliate">Affiliates</a>
+        <a href="#news">Press</a>
+        <a href="mailto:help@jesus-parables.com" class="nav-cta">Get Started</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-gradient"></div>
+      <div class="hero-video-wrapper">
+        <iframe src="video/Home - The 40 Parables Jesus Parables.mp4" frameborder="0" allow="autoplay" title="Background"></iframe>
+          <!-- <video autoplay muted loop playsinline>
+          <source src="video/Home - The 40 Parables Jesus Parables.mp4" type="video/mp4">
+          </video> -->
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-eyebrow">New 1-Hour Documentary Film</div>
+          <h1 class="hero-title">The Hidden Meaning Behind<br><em>Jesus' 40 Parables</em> Revealed</h1>
+          <p class="hero-sub">The first-ever cinematic documentary featuring all-Christ teaching — exploring the mysteries, patterns, and hidden messages within the 40 parables of Jesus Christ.</p>
+          <p class="hero-verse">
+            "Unto you it is given to know the mystery of the Kingdom of God: but unto them that are without, all these things are done in Parables."
+            <strong>Mark 4:11</strong>
+          </p>
+          <div class="hero-ctas">
+            <a href="#trailers" class="btn-primary" onclick="openModal('video/Home - The 40 Parables Jesus Parables.mp4')">
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+              Watch Film
+            </a>
+            <a href="#affiliate" class="btn-secondary">Join as Affiliate</a>
+            <a href="https://www.blueletterbible.org/search/search.cfm?Criteria=parables&t=KJV" target="_blank" class="btn-outline-red">Explore Parables</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-num">40</span>
+              <span class="hero-stat-label">Parables of Christ</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">1 Hr</span>
+              <span class="hero-stat-label">Life-Changing Documentary</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">2,000+</span>
+              <span class="hero-stat-label">Years in the Making</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">$2K</span>
+              <span class="hero-stat-label">Per Affiliate Referral</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card">
+            <span class="hero-card-badge">Biggest Bible Discovery in 2,000 Years</span>
+            <h3>The 40 Parables Documentary</h3>
+            <p>The only 8 times in Scripture where Jesus said "Heaven is like" — each was immediately followed by a parable. This documentary reveals why, and what it means for every soul alive today.</p>
+            <a href="#trailers" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:0.8rem;" onclick="openModal('video/How Worldwide Publishers Is Bringing Jesus’ Teachings To Life.mp4')">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><polygon points="5,3 19,12 5,21"/></svg>
+              Watch Official Trailer
+            </a>
+            <a href="www.jesus-parables.com/404" target="_blank" class="btn-secondary" style="width:100%;justify-content:center;">Sign Up for Full Documentary</a>
+            <div class="hero-card-stats">
+              <div class="hero-card-stat"><strong>40</strong><span>Parables</span></div>
+              <div class="hero-card-stat"><strong>8×</strong><span>"Heaven is like"</span></div>
+              <div class="hero-card-stat"><strong>#1</strong><span>First Ever Film</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VERSE STRIPE -->
+    <div class="verse-stripe">
+      <p>"What many call <em>The Keys to the Kingdom Come</em> — hidden in plain sight for 2,000 years."
+        <cite>The 40 Parables — Worldwide Publishers LLC</cite>
+      </p>
+    </div>
+
+    <!-- TRAILERS SECTION -->
+    <section class="trailers-section" id="trailers">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-tag">Official Trailers</div>
+          <h2 class="section-title">Watch the <em>Documentary</em></h2>
+          <p style="font-size:14px;color:var(--ink-mid);max-width:520px;margin-top:0.5rem;line-height:1.75;">Click any trailer below to watch. The full 1-hour film reveals the biblical parables explained in their complete context — for the first time ever.</p>
+        </div>
+        <div class="trailers-grid" id="trailers-grid"></div>
+      </div>
+    </section>
+
+    <!-- DISCOVERY SECTION -->
+    <section class="discovery-section" id="discovery">
+      <div class="section-inner">
+        <div class="discovery-grid">
+          <div class="discovery-text reveal">
+            <div class="section-tag">The Hidden Discovery</div>
+            <h2 class="section-title">A Hidden Pattern <em>Within</em> the Parables</h2>
+            <p class="discovery-body">For over 2,000 years, a profound structure lay concealed inside Jesus' teachings — a pattern so precise, so intentional, it defies coincidence. The 40 Parables documentary uses a cutting-edge AI-powered Bible research tool to map, for the first time, every instance Jesus used specific words, revealing a hidden Gospel architecture.</p>
+            <p class="discovery-body">The only 8 times in Scripture where Jesus said "Heaven is like" — each was immediately followed by a parable. This documentary reveals why, and what it means for every soul alive today.</p>
+            <div class="discovery-features">
+              <div class="discovery-feat">
+                <div class="feat-icon">I</div>
+                <div class="feat-text"><strong>The Jesus Keyword Tool</strong>See every time Jesus used any word throughout the entire Bible, compiled in one exclusive tool available on Jesus-Parables.com.</div>
+              </div>
+              <div class="discovery-feat">
+                <div class="feat-icon">II</div>
+                <div class="feat-text"><strong>The 8 Heavenly Patterns</strong>The only 8 times Jesus says "Heaven is like" — each followed by a parable. Explore what this structure reveals about the First Gospel.</div>
+              </div>
+              <div class="discovery-feat">
+                <div class="feat-icon">III</div>
+                <div class="feat-text"><strong>Matthew 13 — The Master Key</strong>The only chapter where Jesus explains 2 of His parables, reveals why He taught in parables, and teaches 7 short parables back to back.</div>
+              </div>
+            </div>
+            <a href="https://www.blueletterbible.org/search/search.cfm?Criteria=%22heaven+is+like%22&t=KJV" target="_blank" class="btn-secondary" style="display:inline-flex;margin-top:0.5rem;">Explore "Heaven is Like" in the Bible →</a>
+          </div>
+
+          <div class="reveal reveal-delay-2">
+            <div class="disc-card">
+              <div class="disc-card-bg-num">40</div>
+              <div class="disc-stat-item"><div class="disc-stat-num">40</div><div class="disc-stat-desc">Individual parables taught by Jesus Christ across the four Gospels</div></div>
+              <div class="disc-stat-item"><div class="disc-stat-num">8×</div><div class="disc-stat-desc">Times Jesus said "Heaven is like" — always immediately followed by a parable</div></div>
+              <div class="disc-stat-item"><div class="disc-stat-num">#1</div><div class="disc-stat-desc">First documentary ever made featuring all-Christ teaching on His 40 Parables</div></div>
+              <div class="disc-quote">
+                "Those of truth can understand what Jesus calls the mysteries or secrets of the Kingdom Come."
+                <cite>— Worldwide Publishers LLC</cite>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFFILIATE SECTION -->
+    <section class="affiliate-section" id="affiliate">
+      <div class="section-inner" style="position:relative;z-index:1;">
+        <div class="affiliate-header reveal">
+          <div class="section-tag">Affiliate Opportunity</div>
+          <h2 class="section-title">Make a Living <em>Working for the Lord</em></h2>
+          <p>Join our free affiliate program and earn up to $2,000 per referral — or up to $5,000 as a Licensed Parable Affiliate — by sharing The 40 Parables documentary with the world. Help invite the lost and hurting to hear Jesus teach His 40 Parables for the first time ever.</p>
+        </div>
+
+        <div class="affiliate-tiers">
+          <div class="tier-card reveal reveal-delay-1">
+            <div class="tier-name">Registered Affiliate</div>
+            <div class="tier-commission"><sup>$</sup>0</div>
+            <div class="tier-per">Free to Start</div>
+            <ul class="tier-features">
+              <li>$2,000 commission per licensed referral</li>
+              <li>50% on Parable handbooks, CDs &amp; DVDs</li>
+              <li>Free premade online invitation ads</li>
+              <li>Post invitations on any online platform</li>
+              <li>No experience required to begin</li>
+              <li>Corporate sponsorships available</li>
+            </ul>
+            <a href="mailto:help@jesus-parables.com" class="btn-ghost-white" style="display:inline-flex;margin-top:1.8rem;font-size:11px;padding:0.7rem 1.2rem;">Join Free Today</a>
+          </div>
+
+          <div class="tier-card featured reveal reveal-delay-2">
+            <div class="tier-name">Licensed Affiliate</div>
+            <div class="tier-commission"><sup>$</sup>5K</div>
+            <div class="tier-per">Per new Licensed Affiliate you invite</div>
+            <ul class="tier-features">
+              <li>$5,000 commission per new licensed affiliate invited</li>
+              <li>$3,000 when registered affiliate upgrades to licensed</li>
+              <li>40% ($2,000) on all Parable Ministry Kits</li>
+              <li>Fully cloned 40 Parables website</li>
+              <li>Your own dedicated YouTube Channel clone</li>
+              <li>24/7 Automated Webinar clone included</li>
+              <li>Forgivable $5,000 grant available to start</li>
+            </ul>
+            <a href="https://www.jesus-parables.com/contact-us" class="btn-primary" style="display:inline-flex;margin-top:1.8rem;font-size:11px;padding:0.7rem 1.2rem;">Apply for $5K Grant</a>
+          </div>
+
+          <div class="tier-card reveal reveal-delay-3">
+            <div class="tier-name">Corporate / Publisher</div>
+            <div class="tier-commission"><sup>$</sup>1M+</div>
+            <div class="tier-per">Potential earnings through network</div>
+            <ul class="tier-features">
+              <li>Corporate sponsorships available</li>
+              <li>Bloggers &amp; publishers with qualifying sites</li>
+              <li>Mobile app participation available</li>
+              <li>Custom linking tools for large audiences</li>
+              <li>We sign you up and manage your setup</li>
+            </ul>
+            <a href="mailto:help@jesus-parables.com" class="btn-ghost-white" style="display:inline-flex;margin-top:1.8rem;font-size:11px;padding:0.7rem 1.2rem;">Request Details</a>
+          </div>
+        </div>
+
+        <div class="affiliate-cta-block reveal">
+          <div class="affil-cta-text">
+            <div class="section-tag">Ready to Begin?</div>
+            <h3>Join Free &amp; Start Earning</h3>
+            <p>Send a short video telling us your vision for inviting as many people as you can to this life-changing documentary.</p>
+            <p style="margin-top:0.4rem;font-size:13px;color:rgba(255,255,255,0.45);">Email: <a href="mailto:help@jesus-parables.com" style="color:var(--tomato-light);text-decoration:none;">help@jesus-parables.com</a></p>
+          </div>
+          <div class="affil-cta-actions">
+            <a href="mailto:help@jesus-parables.com" class="btn-primary">Join Free Now</a>
+            <a href="https://www.disciplesneeded.com/affiliate-agreements7tzps23" target="_blank" class="btn-ghost-white">View Agreement</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES SECTION -->
+    <section class="packages-section" id="packages">
+      <div class="section-inner">
+        <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto 0.5rem;">
+          <div class="section-tag" style="justify-content:center;">Parable Ministry Kits</div>
+          <h2 class="section-title">Share the <em>Good News</em></h2>
+          <p style="font-size:14px;color:var(--ink-mid);margin-top:0.6rem;line-height:1.75;">Handbooks, CDs &amp; DVDs to help spread the 40 Parables message. Every package includes free shipping and a 30-day money-back guarantee.</p>
+        </div>
+        <div class="packages-grid">
+          <div class="pkg-card reveal reveal-delay-1">
+            <div class="pkg-name">Package of 3</div>
+            <div class="pkg-price"><sup>$</sup>30</div>
+            <ul class="pkg-items">
+              <li>One 40 Parable Handbook</li>
+              <li>One 40 Parable CD</li>
+              <li>One 40 Parable DVD</li>
+              <li>Individually wrapped in cardboard sleeves</li>
+              <li>FREE shipping</li>
+            </ul>
+            <p class="pkg-note">30-Day Money Back Guarantee</p>
+            <a href="https://www.jesus-parables.com/contact-us" target="_blank" class="btn-primary" style="width:100%;justify-content:center;">Order Now</a>
+          </div>
+          <div class="pkg-card featured-pkg reveal reveal-delay-2">
+            <div class="pkg-name">Package of 9</div>
+            <div class="pkg-price"><sup>$</sup>60</div>
+            <ul class="pkg-items">
+              <li>Three 40 Parable Handbooks</li>
+              <li>Three 40 Parable CDs</li>
+              <li>Three 40 Parable DVDs</li>
+              <li>Individually wrapped in cardboard sleeves</li>
+              <li>FREE shipping</li>
+            </ul>
+            <p class="pkg-note">30-Day Money Back Guarantee</p>
+            <a href="https://www.jesus-parables.com/contact-us" target="_blank" class="btn-primary" style="width:100%;justify-content:center;">Order Now</a>
+          </div>
+          <div class="pkg-card reveal reveal-delay-3">
+            <div class="pkg-name">Package of 15</div>
+            <div class="pkg-price"><sup>$</sup>100</div>
+            <ul class="pkg-items">
+              <li>Five 40 Parable Handbooks</li>
+              <li>Five 40 Parable CDs</li>
+              <li>Five 40 Parable DVDs</li>
+              <li>Individually wrapped in cardboard sleeves</li>
+              <li>FREE shipping</li>
+            </ul>
+            <p class="pkg-note">30-Day Money Back Guarantee</p>
+            <a href="https://www.jesus-parables.com/contact-us" target="_blank" class="btn-primary" style="width:100%;justify-content:center;">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS SECTION -->
+    <section class="news-section" id="news">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-tag">Press Coverage</div>
+          <h2 class="section-title">As Seen In The <em>News</em></h2>
+        </div>
+        <div class="news-media-bar reveal">
+          <span class="media-chip">AB Newswire</span>
+          <span class="media-chip">PR Newswire</span>
+          <span class="media-chip">Montpelier Journal</span>
+          <span class="media-chip">Digital Journal</span>
+        </div>
+        <div class="news-grid">
+          <a href="https://www.abnewswire.com/pressreleases/jesusparablescom-takes-the-masses-by-surprise-through-the-launch-of-one-of-the-greatest-biblical-discoveries-in-2000-years_595945.html" target="_blank" class="news-card reveal reveal-delay-1">
+            <div class="news-source">AB Newswire</div>
+            <div class="news-headline">Jesus-Parables.com Takes the Masses by Surprise Through the Launch of One of the Greatest Biblical Discoveries in 2,000 Years</div>
+            <span class="news-arrow">Read Story →</span>
+          </a>
+          <a href="https://www.prnewswire.com/news-releases/worldwide-publishers-llcs-new-youtube-channel-discloses-shocking-revelations-regarding-the-original-1st-gospel-of-jesus-christ-301525646.html" target="_blank" class="news-card reveal reveal-delay-2">
+            <div class="news-source">PR Newswire</div>
+            <div class="news-headline">Worldwide Publishers LLC's New YouTube Channel Discloses Shocking Revelations Regarding the Original 1st Gospel of Jesus Christ</div>
+            <span class="news-arrow">Read Story →</span>
+          </a>
+          <a href="https://www.montpelierjournal.com/news/story/310711/hear-every-time-jesus-used-a-certain-word-in-bible-through-a-cutting-edge-tool-available-on-jesusparablescom.html" target="_blank" class="news-card reveal reveal-delay-3">
+            <div class="news-source">Montpelier Journal</div>
+            <div class="news-headline">Hear Every Time Jesus Used a Certain Word in the Bible Through a Cutting-Edge Tool Available on Jesus-Parables.com</div>
+            <span class="news-arrow">Read Story →</span>
+          </a>
+          <a href="https://www.abnewswire.com/pressreleases/witness-the-second-coming-of-the-1st-gospel-through-this-new-1hour-documentary-named-the-40-parables_598189.html" target="_blank" class="news-card reveal reveal-delay-4">
+            <div class="news-source">AB Newswire</div>
+            <div class="news-headline">Witness the Second Coming of the 1st Gospel Through this New 1-Hour Documentary Named "The 40 Parables"</div>
+            <span class="news-arrow">Read Story →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEYWORD / EMAIL CAPTURE -->
+    <section class="keyword-section" id="keyword">
+      <h2>Get Your <em>Free 86-Page eBook</em> &amp; Keyword Tool Access</h2>
+      <p>Enter your email to receive the free 86-page eBook on "The Keys to the Kingdom Come" and instant access to the Jesus Keyword Tool — see every time Jesus used any word throughout the Bible.</p>
+      <form class="capture-form-inline" onsubmit="handleCapture(event)">
+        <input type="email" id="capture-email" placeholder="Enter your email address" required>
+        <button type="submit">Get Free Access</button>
+      </form>
+      <p class="capture-note">We NEVER share your email. Unsubscribe any time. 100% secure.</p>
+    </section>
+
+    <!-- DONATION -->
+    <section class="donate-section" id="donate">
+      <div class="section-inner" style="max-width:740px;">
+        <div class="section-tag" style="justify-content:center;">Support the Mission</div>
+        <h2 class="section-title">Feed My Sheep</h2>
+        <p style="font-size:14px;color:var(--ink-mid);margin-bottom:2rem;line-height:1.8;">Worldwide Publishers LLC is an international publishing company — not a 501-C3. Your donation helps spread the Parables of Jesus to the lost and hurting around the world.</p>
+        <div class="donate-verses">
+          <div class="donate-verse">"Blessed are the merciful: for they shall obtain mercy."<cite>Matthew 5:7</cite></div>
+          <div class="donate-verse">"But rather give alms of such things as ye have; and, behold, all things are clean unto you."<cite>Luke 11:41</cite></div>
+          <div class="donate-verse">"Lovest thou me?... Jesus saith unto him, Feed my sheep."<cite>John 21:17</cite></div>
+        </div>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=439ZUNAX2PCX4" target="_blank" class="btn-primary" style="margin-top:0.5rem;">Make a Donation</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#https://www.jesus-parables.com/" class="nav-logo" style="text-decoration:none;">
+             <a href="#www.jesus-parables.com"><img style="height: 53px; width: 286px; padding-right: 90px;" src="img/logo.png"></a>
+            </a>
+            <p>The first-ever documentary featuring all-Christ teaching on His 40 Parables. The biggest Bible discovery in over 2,000 years.</p>
+            <p style="margin-top:0.7rem;font-size:12px;color:rgba(255,255,255,0.28);">Email: <a href="mailto:help@jesus-parables.com" style="color:var(--tomato-light);text-decoration:none;">help@jesus-parables.com</a></p>
+          </div>
+          <div class="footer-col">
+            <h4>Documentary</h4>
+            <a href="#hero">Watch Full Film</a>
+            <a href="#trailers">Official Trailers</a>
+            <a href="https://www.youtube.com/channel/UC60ja0L9kCX-EHoFxSr3ZHw/videos" target="_blank">YouTube Channel</a>
+            <a href="https://www.jesus-parables.com/home1" target="_blank">Film Page</a>
+          </div>
+          <div class="footer-col">
+            <h4>Affiliate</h4>
+            <a href="#affiliate">Join Free (Registered)</a>
+            <a href="https://www.disciplesneeded.com/affiliate-agreements7tzps23" target="_blank">View Agreement</a>
+            <a href="https://www.jesus-parables.com/contact-us" target="_blank">$5,000 Grant</a>
+            <a href="mailto:help@jesus-parables.com">Contact Us</a>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="https://www.blueletterbible.org/search/search.cfm?Criteria=parables&t=KJV" target="_blank">Parables in Bible</a>
+            <a href="https://www.blueletterbible.org/search/search.cfm?Criteria=%22heaven+is+like%22&t=KJV" target="_blank">"Heaven Is Like"</a>
+            <a href="https://www.jesus-parables.com/feedback" target="_blank">Give Feedback</a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=439ZUNAX2PCX4" target="_blank">Make a Donation</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Worldwide Publishers LLC © 2026. All Rights Reserved. Not a 501-C3.</span>
+          <div style="display:flex;gap:1.5rem;">
+            <a href="https://www.jesus-parables.com/privacy-policy" target="_blank">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal-overlay" id="video-modal" onclick="closeModalOutside(event)">
+      <div class="modal-inner">
+        <button class="modal-close" onclick="closeModal()">✕ Close</button>
+        <div class="modal-video">
+          <iframe id="modal-iframe" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    // ── TRAILER DATA ──
+    const TRAILERS = [
+      { id:"t1", title:"The 40 Parables — Official Trailer", url:"video/How Worldwide Publishers Is Bringing Jesus’ Teachings To Life.mp4", thumbnail:"https://img.youtube.com/vi/PLi5VtYIBCM/hqdefault.jpg", duration:"3 min", featured:true, label:"Official Trailer" },
+      { id:"t2", title:"Could He Be Who He Claimed? 0% or 100%", url:"video/See the word Parables as shown throughout the Bible, Shocking.mp4", thumbnail:"https://img.youtube.com/vi/mepK0DLeK8E/hqdefault.jpg", duration:"3 min", featured:false, label:"Trailer 2" },
+      { id:"t3", title:"The Keys to the Kingdom Come", url:"video/Home - The 40 Parables Jesus Parables.mp4", thumbnail:"https://img.youtube.com/vi/UCqvqU8hLXw/hqdefault.jpg", duration:"5:26 min", featured:false, label:"Affiliate Overview" },
+      { id:"t4", title:"Purpose of Worldwide Publishers LLC", url:"video/How Worldwide Publishers Is Bringing Jesus’ Teachings To Life.mp4", thumbnail:"https://img.youtube.com/vi/9WvqI7JQCTI/hqdefault.jpg", duration:"5:24 min", featured:false, label:"About Us" }
+    ];
+
+    function buildTrailers() {
+      const grid = document.getElementById('trailers-grid');
+      if (!grid) return;
+      grid.innerHTML = TRAILERS.map(t => `
+        <div class="trailer-card reveal" onclick="openModal('${t.url}')" data-id="${t.id}">
+          ${t.featured ? '<span class="featured-badge">Featured</span>' : ''}
+          <div class="trailer-thumb">
+            <img src="${t.thumbnail}" alt="${t.title}" loading="lazy">
+            <div class="trailer-play-btn"></div>
+          </div>
+          <div class="trailer-info">
+            <span class="trailer-label">${t.label}</span>
+            <div class="trailer-title">${t.title}</div>
+            <div class="trailer-duration">${t.duration}</div>
+          </div>
+        </div>
+      `).join('');
+      triggerReveal();
+    }
+
+    function openModal(url) {
+      document.getElementById('modal-iframe').src = url + '?autoplay=1';
+      document.getElementById('video-modal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      document.getElementById('modal-iframe').src = '';
+      document.getElementById('video-modal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    function closeModalOutside(e) {
+      if (e.target === document.getElementById('video-modal')) closeModal();
+    }
+
+    // ── NAV SCROLL ──
+    window.addEventListener('scroll', () => {
+      document.getElementById('main-nav').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── SCROLL REVEAL ──
+    function triggerReveal() {
+      const els = document.querySelectorAll('.reveal:not(.visible)');
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.10 });
+      els.forEach(el => io.observe(el));
+    }
+
+    // ── EMAIL CAPTURE ──
+    function handleCapture(e) {
+      e.preventDefault();
+      const email = document.getElementById('capture-email').value;
+      if (!email) return;
+      alert('Thank you! Check your inbox for the free eBook and Jesus Keyword Tool access.');
+      document.getElementById('capture-email').value = '';
+    }
+
+    // ── DYNAMIC CANVAS BACKGROUND ──
+    (function() {
+      const canvas = document.getElementById('bg-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, orbs;
+
+      function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+        initOrbs();
+      }
+
+      function initOrbs() {
+        orbs = [
+          { x: W * 0.75, y: H * 0.25, r: W * 0.35, dx: 0.18, dy: 0.12, color: 'rgba(214,59,47,0.06)' },
+          { x: W * 0.15, y: H * 0.65, r: W * 0.30, dx: -0.14, dy: 0.16, color: 'rgba(15,43,91,0.06)' },
+          { x: W * 0.50, y: H * 0.80, r: W * 0.25, dx: 0.10, dy: -0.18, color: 'rgba(214,59,47,0.04)' },
+          { x: W * 0.85, y: H * 0.70, r: W * 0.22, dx: -0.12, dy: -0.10, color: 'rgba(15,43,91,0.05)' },
+        ];
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        orbs.forEach(o => {
+          o.x += o.dx; o.y += o.dy;
+          if (o.x - o.r > W || o.x + o.r < 0) o.dx *= -1;
+          if (o.y - o.r > H || o.y + o.r < 0) o.dy *= -1;
+          const g = ctx.createRadialGradient(o.x, o.y, 0, o.x, o.y, o.r);
+          g.addColorStop(0, o.color);
+          g.addColorStop(1, 'transparent');
+          ctx.beginPath();
+          ctx.arc(o.x, o.y, o.r, 0, Math.PI * 2);
+          ctx.fillStyle = g;
+          ctx.fill();
+        });
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener('resize', resize);
+      resize();
+      draw();
+    })();
+
+    // ── INIT ──
+    document.addEventListener('DOMContentLoaded', () => {
+      buildTrailers();
+      triggerReveal();
+      window.addEventListener('scroll', triggerReveal);
+    });
+    </script>
+    </body>
+</html>
